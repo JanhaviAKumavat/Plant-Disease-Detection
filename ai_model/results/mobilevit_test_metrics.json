@@ -1,0 +1,13 @@
+{
+    "model": "MobileViT XXS",
+    "checkpoint_epoch": 3,
+    "validation_accuracy": 38.311688311688314,
+    "test_images": 227,
+    "correct_predictions": 67,
+    "incorrect_predictions": 160,
+    "test_accuracy": 0.29515418502202645,
+    "macro_precision": 0.2647248322135341,
+    "macro_recall": 0.2789936401047512,
+    "macro_f1": 0.19926043391815665,
+    "weighted_f1": 0.21116266702251618
+}

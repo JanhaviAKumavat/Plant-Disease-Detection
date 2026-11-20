@@ -1,0 +1,11 @@
+{
+    "model": "MobileNetV3 Small",
+    "checkpoint_epoch": 4,
+    "validation_accuracy": 57.57575757575758,
+    "test_images": 227,
+    "test_accuracy": 0.4845814977973568,
+    "macro_precision": 0.5006391635476602,
+    "macro_recall": 0.4637405804072471,
+    "macro_f1": 0.4514697768007285,
+    "weighted_f1": 0.47001671214897656
+}
