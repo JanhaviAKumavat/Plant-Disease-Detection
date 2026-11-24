@@ -4,8 +4,8 @@ from bson import ObjectId
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 
-from backend.app.config.security import decode_access_token
-from backend.app.database.mongodb import get_database
+from app.config.security import decode_access_token
+from app.database.mongodb import get_database
 
 
 bearer_scheme = HTTPBearer()

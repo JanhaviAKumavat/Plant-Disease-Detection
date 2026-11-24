@@ -1,6 +1,6 @@
 ﻿from fastapi import APIRouter
 
-from backend.app.controllers.auth_controller import router as auth_controller
+from app.controllers.auth_controller import router as auth_controller
 
 
 router = APIRouter(

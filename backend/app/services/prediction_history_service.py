@@ -2,7 +2,7 @@
 
 # from bson import ObjectId
 
-# from backend.app.database.mongodb import get_database
+# from app.database.mongodb import get_database
 
 
 # async def save_prediction_history(
@@ -39,7 +39,7 @@ from uuid import uuid4
 from bson import ObjectId
 from PIL import Image
 
-from backend.app.database.mongodb import get_database
+from app.database.mongodb import get_database
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]

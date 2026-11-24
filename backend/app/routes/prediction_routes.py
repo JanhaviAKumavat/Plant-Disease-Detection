@@ -1,7 +1,7 @@
 ﻿from fastapi import APIRouter
 
-from backend.app.controllers.prediction_controller import router as prediction_controller
-from backend.app.controllers.prediction_history_controller import router as history_controller
+from app.controllers.prediction_controller import router as prediction_controller
+from app.controllers.prediction_history_controller import router as history_controller
 
 
 router = APIRouter(

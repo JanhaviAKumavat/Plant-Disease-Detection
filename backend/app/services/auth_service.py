@@ -3,13 +3,13 @@
 from bson import ObjectId
 from pymongo.errors import DuplicateKeyError
 
-from backend.app.config.security import (
+from app.config.security import (
     hash_password,
     verify_password,
     create_access_token
 )
-from backend.app.database.mongodb import get_database
-from backend.app.schemas.auth_schema import (
+from app.database.mongodb import get_database
+from app.schemas.auth_schema import (
     RegisterRequest,
     LoginRequest
 )

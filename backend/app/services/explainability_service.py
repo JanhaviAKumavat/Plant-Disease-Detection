@@ -8,7 +8,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from backend.app.services.prediction_service import explain_plant_disease
+from app.services.prediction_service import explain_plant_disease
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]

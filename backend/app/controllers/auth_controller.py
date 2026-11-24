@@ -1,16 +1,16 @@
 ﻿from fastapi import APIRouter, HTTPException, status, Depends
 
-from backend.app.schemas.auth_schema import (
+from app.schemas.auth_schema import (
     RegisterRequest,
     LoginRequest
 )
 
-from backend.app.services.auth_service import (
+from app.services.auth_service import (
     register_user,
     authenticate_user
 )
 
-from backend.app.utils.auth_dependency import get_current_user
+from app.utils.auth_dependency import get_current_user
 
 router = APIRouter()
 

@@ -1,8 +1,8 @@
 ﻿# from bson import ObjectId
 # from fastapi import APIRouter, Depends, HTTPException
 
-# from backend.app.database.mongodb import get_database
-# from backend.app.utils.auth_dependency import get_current_user
+# from app.database.mongodb import get_database
+# from app.utils.auth_dependency import get_current_user
 
 
 # router = APIRouter()
@@ -150,8 +150,8 @@ from pathlib import Path
 from bson import ObjectId
 from fastapi import APIRouter, Depends, HTTPException
 
-from backend.app.database.mongodb import get_database
-from backend.app.utils.auth_dependency import get_current_user
+from app.database.mongodb import get_database
+from app.utils.auth_dependency import get_current_user
 
 router = APIRouter()
 

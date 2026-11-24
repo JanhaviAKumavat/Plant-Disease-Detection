@@ -1,11 +1,11 @@
 ﻿# from fastapi import APIRouter, File, HTTPException, UploadFile, Depends
 
-# from backend.app.services.image_validation import validate_image
-# from backend.app.services.prediction_service import predict_plant_disease
-# from backend.app.services.disease_information_service import get_disease_information
-# from backend.app.services.prediction_history_service import save_prediction_history
-# from backend.app.services.explainability_service import generate_explanation
-# from backend.app.utils.auth_dependency import get_current_user
+# from app.services.image_validation import validate_image
+# from app.services.prediction_service import predict_plant_disease
+# from app.services.disease_information_service import get_disease_information
+# from app.services.prediction_history_service import save_prediction_history
+# from app.services.explainability_service import generate_explanation
+# from app.utils.auth_dependency import get_current_user
 
 
 # router = APIRouter()
@@ -112,12 +112,12 @@
 
 # from fastapi import APIRouter, File, HTTPException, UploadFile, Depends
 
-# from backend.app.services.image_validation import validate_image
-# from backend.app.services.prediction_service import predict_plant_disease
-# from backend.app.services.disease_information_service import get_disease_information
-# from backend.app.services.prediction_history_service import save_prediction_history
-# from backend.app.services.explainability_service import generate_explanation
-# from backend.app.utils.auth_dependency import get_current_user
+# from app.services.image_validation import validate_image
+# from app.services.prediction_service import predict_plant_disease
+# from app.services.disease_information_service import get_disease_information
+# from app.services.prediction_history_service import save_prediction_history
+# from app.services.explainability_service import generate_explanation
+# from app.utils.auth_dependency import get_current_user
 
 
 # router = APIRouter()
@@ -288,12 +288,12 @@
 
 from fastapi import APIRouter, File, HTTPException, UploadFile, Depends
 
-from backend.app.services.image_validation import validate_image
-from backend.app.services.prediction_service import predict_plant_disease
-from backend.app.services.disease_information_service import get_disease_information
-from backend.app.services.prediction_history_service import save_prediction_history
-from backend.app.services.explainability_service import generate_explanation
-from backend.app.utils.auth_dependency import get_current_user
+from app.services.image_validation import validate_image
+from app.services.prediction_service import predict_plant_disease
+from app.services.disease_information_service import get_disease_information
+from app.services.prediction_history_service import save_prediction_history
+from app.services.explainability_service import generate_explanation
+from app.utils.auth_dependency import get_current_user
 
 router = APIRouter()
 
